@@ -26,8 +26,8 @@ class Config:
     SESSION = os.environ.get("SESSION_STRING", "")
 
     #Stream Chat and Log Group
-    CHAT = int(os.environ.get("CHAT", ""))
-    LOG_GROUP=os.environ.get("LOG_GROUP", "")
+    CHAT = int(os.environ.get("CHAT", "-1002644388541"))
+    LOG_GROUP=os.environ.get("LOG_GROUP", "-1002644388541")
 
     #Cookies For Youtube Downloder
     YT_COOKIES_PATH = os.path.join(os.getcwd(), "ytcookies", "cookies.txt")
